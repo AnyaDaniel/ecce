@@ -30,12 +30,12 @@ const About2 = (props) => {
                             <p>Ecce law stands for commitment to professionalism and quality service. We aim to simplify the complexities of law for you, providing you with high quality legal services. By focusing on our strengths in specific areas of law, we are able to deliver excellent work, making us a dependable firm dedicated to your success.</p>
                             <div className="text-sub-wrap">
                                 <div className="text-sub-item">
-                                    <i className="fi flaticon-tax"></i>
-                                    <h5>Excellent and satisfactory delivery.</h5>
+                                    <i className="fi flaticon-tax"></i> 
+                                    <h5>Excellent and Satisfactory Delivery.</h5>
                                 </div>
                                 <div className="text-sub-item">
                                     <i className="fi flaticon-investor"></i>
-                                    <h5>Timely and transparent all the time</h5>
+                                    <h5>Always Timely and Transparent</h5>
                                 </div>
                             </div>
                             <Link onClick={ClickHandler} className="theme-btn" to="/about">About Us</Link>

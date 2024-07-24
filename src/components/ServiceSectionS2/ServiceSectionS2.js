@@ -67,7 +67,7 @@ const ServiceSectionS2 = () => {
     return (
         <section className="wpo-service-section-s2 section-padding">
             <div className="container">
-                <SectionTitle subTitle={'Our Services'} Title={'All Ecce Law Solution'} />
+                <SectionTitle subTitle={'Our Services'} Title={'Specialized Legal Solutions'} />
                 <div className="row-grid wpo-service-slider-s2">
                     <Slider {...settings}>
                         {Services.map((service, srv) => (

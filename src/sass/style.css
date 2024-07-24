@@ -3349,8 +3349,8 @@ img {
   animation-delay: 1.5s;
 }
 .hero .hero-slider .slick-current .slide-caption > div.slider-pic * {
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+  -webkit-animation-delay: 3s;
+  animation-delay: 5s;
 }
 
 /************************************************

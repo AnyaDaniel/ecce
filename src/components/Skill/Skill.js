@@ -9,7 +9,7 @@ const Skill = (props) => {
                 <div className="row align-items-center">
                     <div className="col-lg-5 col-md-12 col-12">
                         <div className="wpo-skill-text">
-                            <h5>Meet our Principals</h5>
+                            <h5>Meet our Principal</h5>
                             <h2>A Trusted and Dedicated Legal Professional  <span>Committed to Excellence</span></h2>
                             <p>Kemi is a dedicated lawyer with over 6 years working with a top Canadian law firm with extensive experience in commercial and transactional corporate law in Canada and internationally. Her practice focuses on residential and commercial real estate, contract drafting and negotiation, corporate governance, compliance, and estate administration.
                             Throughout her career, Kemi has provided strategic legal counsel and delivered high-quality solutions to a diverse range of clients.</p>

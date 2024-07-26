@@ -10,18 +10,18 @@ const Teams = [
         name:'Kemi',
         title:'Founder',
     },
-    // {
-    //     Id: '2',
-    //     tImg:timg2,
-    //     name:'Robert Johnson',
-    //     title:'Admin',
-    // },
-    // {
-    //     Id: '3',
-    //     tImg:timg3,
-    //     name:'Jenelia Orkid',
-    //     title:'Merketer',
-    // }
+    {
+        Id: '2',
+        // tImg:,
+        // name:'Robert Johnson',
+        title:'Admin',
+    },
+    {
+        Id: '3',
+        // tImg:timg3,
+        // name:'Jenelia Orkid',
+        title:'Merketer',
+    }
 ]
 
 export default Teams;

@@ -6,7 +6,7 @@ import shape2 from '../../images/page-title-shape-2.png'
 
 const PageTitle = (props) => {
     return (
-        <section className="page-title">
+        <section className="page-title2">
             <div className="page-inner-wrap">
                 <div className="container">
                     <div className="row">

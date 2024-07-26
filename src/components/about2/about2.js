@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import abimg from '../../images/about/2.jpg'
+import abimg from '../../images/about/Always a trusted partner.png'
 import shape1 from '../../images/about/shape-1.png'
 import shape2 from '../../images/about/shape-2.png'
 

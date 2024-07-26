@@ -81,7 +81,7 @@ const Footer2 = (props) => {
                         </div> */}
                     </div>
                 </div>
-                {/* <div className="ft-shape">
+                <div className="ft-shape">
                     <img src={shape} alt="shape"/>
                 </div>
                 <div className="ft-shape-s1">
@@ -102,7 +102,7 @@ const Footer2 = (props) => {
                 </div>
                 <div className="ft-shape-s3">
                     <img src={shape2} alt=""/>
-                </div> */}
+                </div>
             </div>
             <div className="wpo-lower-footer">
                 <div className="container">

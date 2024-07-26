@@ -98,7 +98,7 @@ const Footer = (props) => {
                         </div> */}
                     </div>
                 </div>
-                {/* <div className="ft-shape">
+                <div className="ft-shape">
                     <img src={shape} alt="shape"/>
                 </div>
                 <div className="ft-shape-s1">
@@ -116,7 +116,7 @@ const Footer = (props) => {
                             <path d="M1885 1463 c-189 -11 -392 -50 -565 -109 -202 -68 -460 -209 -630 -345 -222 -176 -436 -441 -560 -694 -45 -91 -120 -283 -120 -305 0 -6 428 -10 1145 -10 l1145 0 0 719 c0 677 -1 720 -17 725 -25 8 -268 26 -312 24 -20 -1 -58 -3 -86 -5z" />
                         </g>
                     </svg>
-                </div> */}
+                </div>
             </div>
             <div className="wpo-lower-footer">
                 <div className="container">

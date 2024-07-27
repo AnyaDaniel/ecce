@@ -17,16 +17,16 @@ import sSingleimg2 from '../images/service-single/3.jpg'
 const Services = [
     {
         Id: '1',
-        sImg:simg,
-        sImgS:sImgS1,
+        // sImg:simg,
+        // sImgS:sImgS1,
         sTitle: 'Business',
         description:'Comprehensive business legal services including incorporation, governance, transactional law, and project management tailored to support corporate operations and growth',
         des2:'jkdjskjdnsdjkjk',
         des3:'jjkajkjk',
         des4:"kjhjsfj",
-        icon:'flaticon-',
-        ssImg1:sSingleimg1,
-        ssImg2:sSingleimg2,
+        // icon:'fa-briefcase',
+        // ssImg1:sSingleimg1,
+        // ssImg2:sSingleimg2,
     },
     {
         Id: '2',
@@ -52,18 +52,18 @@ const Services = [
         ssImg1:sSingleimg1,
         ssImg2:sSingleimg2,
     },
-    {
-        Id: '4',
-        sImg:simg4,
-        sImgS:sImgS4,
-        sTitle: ' AI Governance',
-        description:'Legal guidance on AI implementation and compliance, addressing ethical considerations, regulatory requirements, and governance to ensure responsible AI usage.',
-        des2:'',
-        des3:'',
-        // icon:'flaticon-tax',
-        ssImg1:sSingleimg1,
-        ssImg2:sSingleimg2,
-    }
+    // {
+    //     Id: '4',
+    //     sImg:simg4,
+    //     sImgS:sImgS4,
+    //     sTitle: ' AI Governance',
+    //     description:'Legal guidance on AI implementation and compliance, addressing ethical considerations, regulatory requirements, and governance to ensure responsible AI usage.',
+    //     des2:'',
+    //     des3:'',
+    //     // icon:'flaticon-tax',
+    //     ssImg1:sSingleimg1,
+    //     ssImg2:sSingleimg2,
+    // }
 ]    
 
 export default Services;

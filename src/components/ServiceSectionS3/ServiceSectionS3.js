@@ -27,7 +27,7 @@ const ServiceSectionS3 = () => {
                                     <div className="service-content">
                                         <h2>{service.sTitle}</h2>
                                         <p>{service.description}</p>
-                                        <Link onClick={ClickHandler} to={`/service-single/${service.Id}`}>Details</Link>
+                                        {/* <Link onClick={ClickHandler} to={`/service-single/${service.Id}`}>Details</Link> */}
                                     </div>
                                 </div>
                                 <div className="shape-1"><img src={smg1} alt="" /></div>

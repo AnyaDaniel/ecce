@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import abimg from '../../images/about/img7.jpg'
+import shap from '../../images/about/buiz.png'
 
 const ClickHandler = (props) => {
     window.scrollTo(10, 0);
@@ -20,7 +21,8 @@ const About4 = (props) => {
                                 <p>Whether you need assistance with corporate commercial law, real estate transactions, estate administration, or AI governance, ECCE LAW is here to provide reliable, expert guidance every step of the way. Our commitment to excellence and client satisfaction makes us your trusted partner in navigating complex legal landscapes.</p>
                                 <div className="text-sub-wrap">
                                     <div className="text-sub-item">
-                                        <i className="fi flaticon-tax"></i>
+                                    <span className=""><img src={shap} alt=""/></span>
+                                        {/* <i className="fa fa-clock"></i> */}
                                         <h5>Perfect solution of business
                                             and financial planning.</h5>
                                     </div>

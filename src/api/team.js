@@ -4,24 +4,24 @@ import timg3 from '../images/team/3.jpg'
 
 
 const Teams = [
-    {
-        Id: '1',
-        tImg:timg1,
-        name:'Kemi',
-        title:'Founder',
-    },
-    {
-        Id: '2',
-        // tImg:,
-        // name:'Robert Johnson',
-        title:'Admin',
-    },
-    {
-        Id: '3',
-        // tImg:timg3,
-        // name:'Jenelia Orkid',
-        title:'Merketer',
-    }
+    // {
+    //     Id: '1',
+    //     tImg:timg1,
+    //     name:'Kemi',
+    //     title:'Founder',
+    // },
+    // {
+    //     Id: '2',
+    //     tImg:,
+    //     name:'Robert Johnson',
+    //     title:'Admin',
+    // },
+    // {
+    //     Id: '3',
+    //     tImg:timg3,
+    //     name:'Jenelia Orkid',
+    //     title:'Merketer',
+    // }
 ]
 
 export default Teams;

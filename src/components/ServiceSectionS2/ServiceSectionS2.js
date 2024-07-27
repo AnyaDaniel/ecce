@@ -40,22 +40,22 @@ const settings = {
                 centerMode: false,
             }
         },
-        // {
-        //     breakpoint: 767,
-        //     settings: {
-        //         slidesToShow: 1,
-        //         slidesToScroll: 1,
-        //         centerMode: false,
-        //     }
-        // },
-        // {
-        //     breakpoint: 480,
-        //     settings: {
-        //         slidesToShow: 1,
-        //         slidesToScroll: 1,
-        //         centerMode: false,
-        //     }
-        // }
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: false,
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: false,
+            }
+        }
     ]
 };
 
@@ -75,11 +75,11 @@ const ServiceSectionS2 = () => {
                                 <div className="wpo-service-item">
                                     <div className="wpo-service-text">
                                         <div className="service-icon">
-                                            <i className={`fi ${service.icon}`}></i>
+                                            <i className={`fa ${service.icon}`}></i>
                                         </div>
                                         <h2>{service.sTitle}</h2>
                                         <p>{service.description}</p>
-                                        <Link onClick={ClickHandler} to={`/service-single/${service.Id}`}>Details</Link>
+                                        {/* <Link onClick={ClickHandler} to={`/service-single/${service.Id}`}>Details</Link> */}
                                     </div>
                                 </div>
                             </div>

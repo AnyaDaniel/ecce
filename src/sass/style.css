@@ -12713,3 +12713,8 @@ static-hero-s2
   transform: translateY(-50%);
 }/*# sourceMappingURL=style.css.map */
 
+.fa- .fa{
+  color: red;
+  width: 70px;
+  height: 70px;
+}

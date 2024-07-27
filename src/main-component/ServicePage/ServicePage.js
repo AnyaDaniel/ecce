@@ -12,7 +12,7 @@ const ServicePage =() => {
             <Navbar3/>
             <PageTitle pageTitle={'Service'} pagesub={'Service'}/> 
             <ServiceSectionS3/>
-            <Subscribe sbClass={'wpo-subscribe-section-s2 pt-0'}/>
+            {/* <Subscribe sbClass={'wpo-subscribe-section-s2 pt-0'}/> */}
             <Footer2/>
             <Scrollbar/>
         </Fragment>

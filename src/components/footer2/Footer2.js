@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../../images/logo.png'
 import shape from '../../images/ft-shape.png'
-import shape2 from '../../images/ft-shape2.png'
+import shape2 from '../../images/feeder1.png'
 
 
 const ClickHandler = () => {

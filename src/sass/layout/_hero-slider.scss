@@ -184,7 +184,7 @@
 .hero-style-1 {
 	height: 1000px;
 	position: relative;
-    background: #1a384c;
+    background: #4e4b4b;
 
 	@include media-query(1199px) {
 		height: 750px;
@@ -423,7 +423,7 @@
 			height: 100%;
 			background: #040128;
 			content: "";
-			opacity: .6;
+			opacity: .2;
 		}
 
 		.slide-content{
@@ -770,8 +770,8 @@
 			border: 0;
 			transform: translate(-50%,-50%);
 			z-index: 1;
-			-webkit-animation: spineer 2s infinite;
-				animation: spineer 2s infinite;
+			-webkit-animation: spineer 4s infinite;
+				animation: spineer 4s infinite;
 			
 				@media(max-width:991px){
 					right: 35%;

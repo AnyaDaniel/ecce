@@ -11,6 +11,10 @@ import sImgS4 from '../images/service-single/img-4.jpg'
 import sSingleimg1 from '../images/service-single/2.jpg'
 import sSingleimg2 from '../images/service-single/3.jpg'
 
+import bizImg from  "../images/service/Services icons SVG/3.png"
+import realEstate from  "../images/service/Services icons SVG/2.png"
+import estate from  "../images/service/Services icons SVG/1.png"
+
 
 
 
@@ -24,7 +28,7 @@ const Services = [
         des2:'jkdjskjdnsdjkjk',
         des3:'jjkajkjk',
         des4:"kjhjsfj",
-        // icon:'fa-briefcase',
+        icon:<img src={bizImg} alt="business"/>,
         // ssImg1:sSingleimg1,
         // ssImg2:sSingleimg2,
     },
@@ -39,6 +43,7 @@ const Services = [
         // icon:'flaticon-team',
         ssImg1:sSingleimg1,
         ssImg2:sSingleimg2,
+        icon:<img src={realEstate} alt="real estate"/>
     },
     {
         Id: '3',
@@ -51,6 +56,7 @@ const Services = [
         // icon:'flaticon-taxes',
         ssImg1:sSingleimg1,
         ssImg2:sSingleimg2,
+        icon:<img src={estate} alt="estate"/>
     },
     // {
     //     Id: '4',

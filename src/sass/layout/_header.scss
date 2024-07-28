@@ -1921,8 +1921,11 @@
 
   .fixed-navbar.active .wpo-header-style-1,
   .fixed-navbar.active .wpo-header-style-5 .wpo-site-header{
-    background: #1a384c;
+    background: white;
 	max-width: 100%;
+	a{
+		color: #000 !important;
+	}
   }
 
   .Toastify{

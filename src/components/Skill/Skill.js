@@ -1,6 +1,7 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
 import abimg from '../../images/about/Kemi.jpeg'
+import { Link } from 'react-router-dom';
 
 const Skill = (props) => {
     return (
@@ -14,11 +15,12 @@ const Skill = (props) => {
                             <p> Kemi is a dedicated lawyer with over 6 years working with a top Canadian law firm with extensive experience in commercial and transactional corporate law in Canada and internationally. Her practice focuses on residential and commercial real estate, contract drafting and negotiation, corporate governance, compliance, and estate administration.
                             Throughout her career, Kemi has provided strategic legal counsel and delivered high-quality solutions to a diverse range of clients.
                             <br></br>
-                            <span><a href="#target-text">Read More</a></span>
+                            <span><Link to="/about/#principal">Read More</Link></span>
                             </p>
                         </div>
                     </div>
-                    <div className="col-xl-7 col-lg-6 col-md-12 col-12">
+                    <div className='col'></div>
+                    <div className="col-lg-4 col-12">
                             <div className="wpo-about-wrap">
                                 <div className="wpo-about-img">
                                     <div className="inner-img">
@@ -26,8 +28,8 @@ const Skill = (props) => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    <div className="col-lg-6 offset-lg-1 col-md-12 col-12">
+                    </div>
+                    {/* <div className="col-lg-6 offset-lg-1 col-md-12 col-12"> */}
                         {/* <div className="wpo-skill-progress">
                             <div className="wpo-progress-single">
                                 <h5 className="progress-title">Financial Investment</h5>
@@ -80,7 +82,7 @@ const Skill = (props) => {
                                 <span className="progress-number">95%</span>
                             </div>
                         </div> */}
-                    </div>
+                    {/* </div> */}
                 </div>
             </div>
         </section>

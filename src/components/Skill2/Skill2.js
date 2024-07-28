@@ -1,13 +1,20 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Link, useHref, useLocation } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import shape1 from '../../images/progress-shape-1.png';
 import shape2 from '../../images/progress-shape-2.png';
 import abimg from '../../images/about/Kemi.jpeg';
 
 const Skill2 = (props) => {
+    const location = useLocation()
+    useEffect(()=>{
+        if(location.hash === "#principal"){
+            document.querySelector(location.hash).scrollIntoView({behavior:"smooth"});
+        }
+    },[])
     return (
-        <section className="wpo-skill-section-s2 section-padding">
+        <>
+        <section className="wpo-skill-section-s2 section-padding" id="principal">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-5 col-md-12 col-12 ">
@@ -24,7 +31,8 @@ const Skill2 = (props) => {
                             </p>
                         </div>
                     </div>
-                    <div className="col-xl-7 col-lg-6 col-md-12 col-12 ">
+                    <div className='col'></div>
+                    <div className="col-lg-5 col-12 ">
                         <div className="wpo-about-wrap">
                             <div className="wpo-about-img">
                                 <div className="inner-img">
@@ -38,6 +46,8 @@ const Skill2 = (props) => {
             <div className="pr-shape-1"><img src={shape1} alt="" /></div>
             <div className="pr-shape-2"><img src={shape2} alt="" /></div>
         </section>
+        
+        </>
     );
 }
 

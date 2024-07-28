@@ -18,6 +18,7 @@ const AboutPage = () => {
             <PageTitle pageTitle={'About Us'} pagesub={'About'} />
             <MissionVission/>
             <About4/>
+            <div id="principal"></div>
             <Skill2/>
             <TeamSection tClass={'wpo-team-section-s3'}/>
             {/* <Testimonial/> */}

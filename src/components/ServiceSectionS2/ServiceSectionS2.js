@@ -75,7 +75,7 @@ const ServiceSectionS2 = () => {
                                 <div className="wpo-service-item">
                                     <div className="wpo-service-text">
                                         <div className="service-icon">
-                                            <i className={`fa ${service.icon}`}></i>
+                                            {service.icon}
                                         </div>
                                         <h2>{service.sTitle}</h2>
                                         <p>{service.description}</p>

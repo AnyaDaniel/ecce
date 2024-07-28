@@ -22,12 +22,12 @@ const ServiceSectionS3 = () => {
                             <div className="wpo-service-item">
                                 <div className="wpo-service-text">
                                     <div className="service-icon">
-                                        <i className={`fi ${service.icon}`}></i>
+                                        {service.icon}
                                     </div>
                                     <div className="service-content">
                                         <h2>{service.sTitle}</h2>
                                         <p>{service.description}</p>
-                                        {/* <Link onClick={ClickHandler} to={`/service-single/${service.Id}`}>Details</Link> */}
+                                        <Link onClick={ClickHandler} to={`/service-single/${service.Id}`}>Details</Link>
                                     </div>
                                 </div>
                                 <div className="shape-1"><img src={smg1} alt="" /></div>

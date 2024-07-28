@@ -23,8 +23,7 @@ const About4 = (props) => {
                                     <div className="text-sub-item">
                                     <span className=""><img src={shap} alt=""/></span>
                                         {/* <i className="fa fa-clock"></i> */}
-                                        <h5>Perfect solution of business
-                                            and financial planning.</h5>
+                                        <h5>Dependable law firm dedicated to your success</h5>
                                     </div>
                                 </div>
                                 <Link onClick={ClickHandler} className="theme-btn" to="/service">Our Services</Link>

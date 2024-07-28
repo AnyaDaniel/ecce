@@ -17,12 +17,12 @@ function Business() {
                     <div className="row">
                         <div className="col-lg-8 col-12">
                             <div className="wpo-service-single-wrap">
-                                {/* <div className="wpo-service-single-item">
+                                <div className="wpo-service-single-item">
                                     <div className="wpo-service-single-main-img">
                                         <img src={""} alt="" />
                                     </div>
                                     <div className="wpo-service-single-title">
-                                        <h3>{"Business"}</h3>
+                                        <h2>{"Business"}</h2>
                                     </div>
                                     <p>Comprehensive business legal services including incorporation, governance, transactional law,
                                     . and project management tailored to support corporate operations and growth.</p>
@@ -40,7 +40,7 @@ function Business() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="wpo-service-single-item list-widget">
+                                {/* <div className="wpo-service-single-item list-widget">
                                     <div className="wpo-service-single-title">
                                         <h3>Business Incorporation and Reorganization</h3>
                                     </div>
@@ -55,9 +55,9 @@ function Business() {
                                         <li>Project Management Services:</li>
                                         <li>Non-Profit and Charities:</li>
                                     </ul>
-                                </div>
+                                </div> */}
                                
-                                <div className="wpo-service-single-item list-widget">
+                                {/* <div className="wpo-service-single-item list-widget">
                                     <div className="wpo-service-single-title">
                                         <h3>Corporate Governance</h3>
                                     </div>
@@ -87,7 +87,7 @@ function Business() {
                                                     <div className="wpo-service-item">
                                                         <i className={`fi ${service.icon}`} ></i>
                                                         <h2>{service.sTitle}</h2>
-                                                        <p>Lacus, etiam sed est eu tempus need Temer diam congue.</p>
+                                                        {/* <p>This shows for al</p> */}
                                                     </div>
                                                 </div>
                                             ))}
@@ -97,8 +97,8 @@ function Business() {
                                 <div className="wpo-service-single-item">
                                     <div className="wpo-service-contact-area">
                                         <div className="wpo-contact-title">
-                                            <h2>Have project in mind? Let's discuss</h2>
-                                            <p>Get in touch with us to see how we can help you with your project</p>
+                                            <h2>Let's discuss</h2>
+                                            <p>Get in touch with us </p>
                                         </div>
                                         <div className="wpo-contact-form-area">
                                             <Contact />
@@ -107,7 +107,7 @@ function Business() {
                                 </div>
                             </div>
                         </div>
-                        <ServiceSidebar />
+                        {/* <ServiceSidebar /> */}
                     </div>
                 </div>
             </div>

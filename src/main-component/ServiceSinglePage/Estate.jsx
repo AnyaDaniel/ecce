@@ -85,7 +85,7 @@ function Estate() {
                                                     <div className="wpo-service-item">
                                                         <i className={`fi ${service.icon}`} ></i>
                                                         <h2>{service.sTitle}</h2>
-                                                        <p>Lacus, etiam sed est eu tempus need Temer diam congue.</p>
+                                                        {/* <p>Lacus, etiam sed est eu tempus need Temer diam congue.</p> */}
                                                     </div>
                                                 </div>
                                             ))}
@@ -95,8 +95,8 @@ function Estate() {
                                 <div className="wpo-service-single-item">
                                     <div className="wpo-service-contact-area">
                                         <div className="wpo-contact-title">
-                                            <h2>Have project in mind? Let's discuss</h2>
-                                            <p>Get in touch with us to see how we can help you with your project</p>
+                                            <h2>Let's discuss</h2>
+                                            <p>Get in touch with us </p>
                                         </div>
                                         <div className="wpo-contact-form-area">
                                             <Contact />
@@ -105,7 +105,7 @@ function Estate() {
                                 </div>
                             </div>
                         </div>
-                        <ServiceSidebar />
+                        {/* <ServiceSidebar /> */}
                     </div>
                 </div>
             </div>

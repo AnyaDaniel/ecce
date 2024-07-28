@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import abimg from '../../images/about/Always a trusted partner.png'
+import abimg from '../../images/about/lastone.jpg'
 import shape1 from '../../images/about/shape-1.png'
 import shape2 from '../../images/about/shape-2.png'
-import shape3 from '../../images/about/dele.png'
-import shape4 from '../../images/about/timely.png'
+import shape3 from '../../images/about/newsvgtime.png'
+import shape4 from '../../images/about/newsvgalways.png'
 
 const ClickHandler = () => {
     window.scrollTo(10, 0);

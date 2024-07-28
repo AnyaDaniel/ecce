@@ -14,6 +14,7 @@ import sSingleimg2 from '../images/service-single/3.jpg'
 import bizImg from  "../images/service/Services icons SVG/3.png"
 import realEstate from  "../images/service/Services icons SVG/2.png"
 import estate from  "../images/service/Services icons SVG/1.png"
+import ai from "../images/service/Services icons SVG/AI.svg"
 
 
 
@@ -21,16 +22,16 @@ import estate from  "../images/service/Services icons SVG/1.png"
 const Services = [
     {
         Id: '1',
-        // sImg:simg,
-        // sImgS:sImgS1,
+        sImg:simg,
+        sImgS:sImgS1,
         sTitle: 'Business',
         description:'Comprehensive business legal services including incorporation, governance, transactional law, and project management tailored to support corporate operations and growth',
-        des2:'jkdjskjdnsdjkjk',
-        des3:'jjkajkjk',
-        des4:"kjhjsfj",
+        des2:'',
+        des3:'',
+        des4:"",
         icon:<img src={bizImg} alt="business"/>,
-        // ssImg1:sSingleimg1,
-        // ssImg2:sSingleimg2,
+        ssImg1:sSingleimg1,
+        ssImg2:sSingleimg2,
     },
     {
         Id: '2',
@@ -49,7 +50,7 @@ const Services = [
         Id: '3',
         sImg:simg3,
         sImgS:sImgS3,
-        sTitle: 'Estates',
+        sTitle: 'Wills & Estates',
         description:'Specialized estate planning and administration services, including wills, powers of attorney, and probate, to manage and transfer assets efficiently and legally.',
         des2:'',
         des3:'',
@@ -58,18 +59,20 @@ const Services = [
         ssImg2:sSingleimg2,
         icon:<img src={estate} alt="estate"/>
     },
-    // {
-    //     Id: '4',
-    //     sImg:simg4,
-    //     sImgS:sImgS4,
-    //     sTitle: ' AI Governance',
-    //     description:'Legal guidance on AI implementation and compliance, addressing ethical considerations, regulatory requirements, and governance to ensure responsible AI usage.',
-    //     des2:'',
-    //     des3:'',
-    //     // icon:'flaticon-tax',
-    //     ssImg1:sSingleimg1,
-    //     ssImg2:sSingleimg2,
-    // }
+    {
+        Id: '4',
+        sImg:simg4,
+        sImgS:sImgS4,
+        sTitle: ' AI Governance',
+        description:'Legal guidance on AI implementation and compliance, addressing ethical considerations, regulatory requirements, and governance to ensure responsible AI usage.',
+        des2:'',
+        des3:'',
+        // icon:'flaticon-tax',
+        ssImg1:sSingleimg1,
+        ssImg2:sSingleimg2,
+        icon:<img src={ai} alt="estate"/>
+
+    }
 ]    
 
 export default Services;

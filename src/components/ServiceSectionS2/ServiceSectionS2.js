@@ -79,7 +79,7 @@ const ServiceSectionS2 = () => {
                                         </div>
                                         <h2>{service.sTitle}</h2>
                                         <p>{service.description}</p>
-                                        {/* <Link onClick={ClickHandler} to={`/service-single/${service.Id}`}>Details</Link> */}
+                                        <Link onClick={ClickHandler} to={`/service-single/${service.Id}`}>Details</Link>
                                     </div>
                                 </div>
                             </div>

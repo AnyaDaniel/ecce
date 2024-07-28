@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import hero1 from '../../images/slider/slide-2.jpg'
-import hero2 from '../../images/slider/slider-3.jpg'
+import hero1 from '../../images/banner22.png'
+import hero2 from '../../images/banner23.png'
 
 
 const settings = {
@@ -15,7 +15,7 @@ const settings = {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 5500,
     fade: true
 };
 

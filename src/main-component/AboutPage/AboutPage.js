@@ -9,13 +9,14 @@ import TeamSection from '../../components/TeamSection/TeamSection';
 import Testimonial from '../../components/Testimonial/Testimonial';
 import FunFact from '../../components/FunFact/FunFact';
 import Footer2 from '../../components/footer2/Footer2';
+import abimg from '../../images/service/About Us Banner 2.png'
 
 
 const AboutPage = () => {
     return (
         <Fragment>
             <Navbar3/>
-            <PageTitle pageTitle={'About Us'} pagesub={'About'} />
+            <PageTitle pageTitle={'About Us'} pagesub={'About'} img src={abimg}  />
             <MissionVission/>
             <About4/>
             <div id="principal"></div>

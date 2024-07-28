@@ -3,7 +3,7 @@ import { Link, useHref, useLocation } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import shape1 from '../../images/progress-shape-1.png';
 import shape2 from '../../images/progress-shape-2.png';
-import abimg from '../../images/about/Kemi.jpeg';
+import abimg from '../../images/about/kemi5.jpg'
 
 const Skill2 = (props) => {
     const location = useLocation()
@@ -20,7 +20,7 @@ const Skill2 = (props) => {
                     <div className="col-lg-5 col-md-12 col-12 ">
                         <div className="wpo-skill-text">
                             <h2>Meet Kemi</h2>
-                            <p>
+                            <p className='kemii'>
                                 <span id="target-text">
                                     Kemi is a dedicated
                                 </span> lawyer with over 6 years working with a top Canadian law firm with extensive experience in commercial and transactional corporate law in Canada and internationally. Her practice focuses on residential and commercial real estate, contract drafting and negotiation, corporate governance, compliance, and estate administration.

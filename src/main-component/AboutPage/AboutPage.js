@@ -15,7 +15,7 @@ const AboutPage = () => {
     return (
         <Fragment>
             <Navbar3/>
-            <PageTitle pageTitle={'About Us'} pagesub={'About'} />
+            <PageTitle pageTitle={'About Us'} pagesub={'About'} img={require("../../images/3.png")} />
             <MissionVission/>
             <About4/>
             <div id="principal"></div>

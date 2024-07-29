@@ -21,7 +21,7 @@ const About4 = (props) => {
                                 <p>Whether you need assistance with corporate commercial law, real estate transactions, estate administration, or AI governance, ECCE LAW is here to provide reliable, expert guidance every step of the way. Our commitment to excellence and client satisfaction makes us your trusted partner in navigating complex legal landscapes.</p>
                                 <div className="text-sub-wrap">
                                     <div className="text-sub-item">
-                                    <span className=""><img src={shap} alt=""/></span>
+                                    {/* <span className=""><img src={shap} alt=""/></span> */}
                                         {/* <i className="fa fa-clock"></i> */}
                                         <h5>Dependable law firm dedicated to your success</h5>
                                     </div>

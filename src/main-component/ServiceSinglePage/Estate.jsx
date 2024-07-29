@@ -11,7 +11,7 @@ function Estate() {
     return (
         <Fragment>
             <Navbar3 hclass={'wpo-header-style-5'} />
-            <PageTitle pageTitle={"Estate"} pagesub={'Project'} />
+            <PageTitle pageTitle={"Wills & Estates"} pagesub={'Wills & Estates'} />
             <div className="wpo-service-single-area section-padding">
                 <div className="container">
                     <div className="row">
@@ -24,8 +24,7 @@ function Estate() {
                                     <div className="wpo-service-single-title">
                                         <h3>{"Wills & Estate"}</h3>
                                     </div>
-                                    <p>Comprehensive business legal services including incorporation, governance, transactional law,
-                                     and project management tailored to support corporate operations and growth.</p>
+                                    <p> Expert legal assistance in commercial and residential real estate transactions, leasing, and tenancy matters, ensuring smooth and compliant property dealings..</p>
                                     <p>.</p>
                                     <div className="row mt-4">
                                         <div className="col-md-6 col-sm-6 col-12">

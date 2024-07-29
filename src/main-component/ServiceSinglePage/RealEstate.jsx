@@ -11,22 +11,20 @@ function RealEstate() {
     return (
         <Fragment>
             <Navbar3 hclass={'wpo-header-style-5'} />
-            <PageTitle pageTitle={"Real Estate"} pagesub={'Project'} />
+            <PageTitle pageTitle={"Real Estate"} pagesub={'Real Estate'} />
             <div className="wpo-service-single-area section-padding">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8 col-12">
                             <div className="wpo-service-single-wrap">
-                                {/* <div className="wpo-service-single-item">
+                                <div className="wpo-service-single-item">
                                     <div className="wpo-service-single-main-img">
                                         <img src={""} alt="" />
                                     </div>
                                     <div className="wpo-service-single-title">
-                                        <h3>{"Business"}</h3>
+                                        <h3>{"Real Estate"}</h3>
                                     </div>
-                                    <p>Comprehensive business legal services including incorporation, governance, transactional law,
-                                    . and project management tailored to support corporate operations and growth.</p>
-                                    <p>.</p>
+                                    <p> Expert legal assistance in commercial and residential real estate transactions, leasing, and tenancy matters, ensuring smooth and compliant property dealings.</p>
                                     <div className="row mt-4">
                                         <div className="col-md-6 col-sm-6 col-12">
                                             <div className="wpo-p-details-img">
@@ -40,7 +38,7 @@ function RealEstate() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="wpo-service-single-item list-widget">
+                                {/* <div className="wpo-service-single-item list-widget">
                                     <div className="wpo-service-single-title">
                                         <h3>Business Incorporation and Reorganization</h3>
                                     </div>
@@ -55,9 +53,9 @@ function RealEstate() {
                                         <li>Project Management Services:</li>
                                         <li>Non-Profit and Charities:</li>
                                     </ul>
-                                </div>
+                                </div> */}
                                
-                                <div className="wpo-service-single-item list-widget">
+                                {/* <div className="wpo-service-single-item list-widget">
                                     <div className="wpo-service-single-title">
                                         <h3>Corporate Governance</h3>
                                     </div>

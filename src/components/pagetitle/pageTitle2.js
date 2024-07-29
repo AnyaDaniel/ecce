@@ -4,9 +4,9 @@ import Fade from 'react-reveal/Fade';
 import shape1 from '../../images/page-title-shape-1.png'
 import shape2 from '../../images/page-title-shape-2.png'
 
-const PageTitle = (props) => {
+const PageTitle2 = (props) => {
     return (
-        <section className="page-title2">
+        <section className="page-title" style={{backgroundImage:`url(${props.img})`}} >
             <div className="page-inner-wrap">
                 <div className="container">
                     <div className="row">
@@ -37,4 +37,4 @@ const PageTitle = (props) => {
     )
 }
 
-export default PageTitle;
+export default PageTitle2;

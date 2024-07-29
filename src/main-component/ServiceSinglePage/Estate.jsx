@@ -17,15 +17,15 @@ function Estate() {
                     <div className="row">
                         <div className="col-lg-8 col-12">
                             <div className="wpo-service-single-wrap">
-                                {/* <div className="wpo-service-single-item">
+                                <div className="wpo-service-single-item">
                                     <div className="wpo-service-single-main-img">
                                         <img src={""} alt="" />
                                     </div>
                                     <div className="wpo-service-single-title">
-                                        <h3>{"Business"}</h3>
+                                        <h3>{"Wills & Estate"}</h3>
                                     </div>
                                     <p>Comprehensive business legal services including incorporation, governance, transactional law,
-                                    . and project management tailored to support corporate operations and growth.</p>
+                                     and project management tailored to support corporate operations and growth.</p>
                                     <p>.</p>
                                     <div className="row mt-4">
                                         <div className="col-md-6 col-sm-6 col-12">
@@ -40,7 +40,7 @@ function Estate() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="wpo-service-single-item list-widget">
+                                {/* <div className="wpo-service-single-item list-widget">
                                     <div className="wpo-service-single-title">
                                         <h3>Business Incorporation and Reorganization</h3>
                                     </div>
@@ -55,9 +55,9 @@ function Estate() {
                                         <li>Project Management Services:</li>
                                         <li>Non-Profit and Charities:</li>
                                     </ul>
-                                </div>
+                                </div> */}
                                
-                                <div className="wpo-service-single-item list-widget">
+                                {/* <div className="wpo-service-single-item list-widget">
                                     <div className="wpo-service-single-title">
                                         <h3>Corporate Governance</h3>
                                     </div>

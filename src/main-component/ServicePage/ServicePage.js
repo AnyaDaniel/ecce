@@ -10,7 +10,7 @@ const ServicePage =() => {
     return(
         <Fragment>
             <Navbar3/>
-            <PageTitle pageTitle={'Services'} pagesub={'Services'}/> 
+            <PageTitle pageTitle={'Services'} pagesub={'Services'} /> 
             <ServiceSectionS3/>
             {/* <Subscribe sbClass={'wpo-subscribe-section-s2 pt-0'}/> */}
             <Footer2/>

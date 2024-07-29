@@ -5,12 +5,13 @@ import Contactpage from '../../components/Contactpage/Contactpage'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Logo from '../../images/logo.png'
 import Footer2 from '../../components/footer2/Footer2';
+import abimg from '../../images/service/Contact us banner 2.png'
 
 const ContactPage =() => {
     return(
         <Fragment>
             <Navbar3 Logo={Logo}/>
-            <PageTitle pageTitle={'Contact Us'} pagesub={'Contact'}/> 
+            <PageTitle pageTitle={'Contact Us'} pagesub={'Contact'}  img={abimg} /> 
             <Contactpage/>
             <Footer2/>
             <Scrollbar/>

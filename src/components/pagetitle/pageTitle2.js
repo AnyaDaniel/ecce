@@ -6,7 +6,7 @@ import shape2 from '../../images/page-title-shape-2.png'
 
 const PageTitle2 = (props) => {
     return (
-        <section className="page-title" style={{backgroundImage:`url(${props.img})`}} >
+        <section className="page-title" style={{background:`url("${props.img}")`}}>
             <div className="page-inner-wrap">
                 <div className="container">
                     <div className="row">

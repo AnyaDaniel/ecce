@@ -71,8 +71,8 @@ const ServiceSectionS2 = () => {
                 <div className="row-grid wpo-service-slider-s2">
                     <Slider {...settings}>
                         {Services.map((service, srv) => (
-                            <div className="grid" key={srv}>
-                                <div className="wpo-service-item">
+                            <div className="grid" key={srv} style={{height:"100%"}}>
+                                <div className="wpo-service-item" style={{height:"100%"}}>
                                     <div className="wpo-service-text">
                                         <div className="service-icon">
                                             {service.icon}

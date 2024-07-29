@@ -1923,7 +1923,7 @@
   .fixed-navbar.active .wpo-header-style-5 .wpo-site-header{
     background: white;
 	max-width: 100%;
-	a{
+	li a{
 		color: #000 !important;
 	}
   }
@@ -1946,4 +1946,7 @@
 
   .fixed-navbar.active .wpo-header-style-1 .shop-header{
 	background: #1a384c;
+	a.theme-btn{
+		color:white !important
+	}
   }

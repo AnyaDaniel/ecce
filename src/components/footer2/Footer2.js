@@ -2,7 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../../images/logo.png'
 import shape from '../../images/ft-shape.png'
+<<<<<<< HEAD
 import shape2 from '../../images/ft-shape2.png'
+=======
+import shape2 from '../../images/feeder1.png'
+>>>>>>> master
 
 
 const ClickHandler = () => {
@@ -56,7 +60,11 @@ const Footer2 = (props) => {
                                 <ul>
                                     <li><Link onClick={ClickHandler} to="/about">About company</Link></li>
                                     <li><Link onClick={ClickHandler} to="/service">Our services</Link></li>
+<<<<<<< HEAD
                                     <li><Link onClick={ClickHandler} to="/project">Job opportunities</Link></li>
+=======
+                                    {/* <li><Link onClick={ClickHandler} to="/project">Job opportunities</Link></li> */}
+>>>>>>> master
                                     <li><Link onClick={ClickHandler} to="/contact">Contact us</Link></li>
                                     {/* <li><Link onClick={ClickHandler} to="/about">Vision & Values</Link></li> */}
                                 </ul>
@@ -81,7 +89,11 @@ const Footer2 = (props) => {
                         </div> */}
                     </div>
                 </div>
+<<<<<<< HEAD
                 {/* <div className="ft-shape">
+=======
+                <div className="ft-shape">
+>>>>>>> master
                     <img src={shape} alt="shape"/>
                 </div>
                 <div className="ft-shape-s1">
@@ -102,7 +114,11 @@ const Footer2 = (props) => {
                 </div>
                 <div className="ft-shape-s3">
                     <img src={shape2} alt=""/>
+<<<<<<< HEAD
                 </div> */}
+=======
+                </div>
+>>>>>>> master
             </div>
             <div className="wpo-lower-footer">
                 <div className="container">

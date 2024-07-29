@@ -1,7 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+<<<<<<< HEAD
 import fImg1 from '../../images/features/img-1.jpg'
 import fImg2 from '../../images/features/img-2.jpg'
+=======
+import fImg1 from '../../images/features/Business Transactions.png'
+import fImg2 from '../../images/features/Real Estate.png'
+>>>>>>> master
 
 const Features = (props) => {
     return (

@@ -7,10 +7,17 @@ import Services from '../../api/service';
 import ServiceSidebar from './sidebar'
 import Contact from './contact';
 import Footer2 from '../../components/footer2/Footer2';
+<<<<<<< HEAD
+=======
+import Business from './Business';
+import RealEstate from './RealEstate';
+import Estate from './Estate';
+>>>>>>> master
 
 const ServiceSinglePage = (props) => {
     const { id } = useParams()
 
+<<<<<<< HEAD
     const serviceDetails = Services.find(item => item.Id === id)
 
     const ClickHandler = () => {
@@ -126,5 +133,16 @@ const ServiceSinglePage = (props) => {
             <Scrollbar />
         </Fragment>
     )
+=======
+    // const serviceDetails = Services.find(item => item.Id === id)
+
+    // const ClickHandler = () => {
+    //     window.scrollTo(10, 0);
+    // }
+
+    const pages = [<></>, <Business />, <RealEstate />,<Estate />]
+
+    return pages[Number(id)]
+>>>>>>> master
 };
 export default ServiceSinglePage;

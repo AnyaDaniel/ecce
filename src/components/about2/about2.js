@@ -1,8 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+<<<<<<< HEAD
 import abimg from '../../images/about/2.jpg'
 import shape1 from '../../images/about/shape-1.png'
 import shape2 from '../../images/about/shape-2.png'
+=======
+import abimg from '../../images/about/lastone.jpg'
+import shape1 from '../../images/about/shape-1.png'
+import shape2 from '../../images/about/shape-2.png'
+import shape3 from '../../images/about/newsvgtime.png'
+import shape4 from '../../images/about/newsvgalways.png'
+>>>>>>> master
 
 const ClickHandler = () => {
     window.scrollTo(10, 0);
@@ -30,12 +38,21 @@ const About2 = (props) => {
                             <p>Ecce law stands for commitment to professionalism and quality service. We aim to simplify the complexities of law for you, providing you with high quality legal services. By focusing on our strengths in specific areas of law, we are able to deliver excellent work, making us a dependable firm dedicated to your success.</p>
                             <div className="text-sub-wrap">
                                 <div className="text-sub-item">
+<<<<<<< HEAD
                                     <i className="fi flaticon-tax"></i>
                                     <h5>Excellent and satisfactory delivery.</h5>
                                 </div>
                                 <div className="text-sub-item">
                                     <i className="fi flaticon-investor"></i>
                                     <h5>Timely and transparent all the time</h5>
+=======
+                                <span className=""><img src={shape3} alt=""/></span>
+                                    <h5>Excellent and Satisfactory Delivery.</h5>
+                                </div>
+                                <div className="text-sub-item">
+                                <span className=""><img src={shape4} alt=""/></span>
+                                    <h5>Always Timely and Transparent</h5>
+>>>>>>> master
                                 </div>
                             </div>
                             <Link onClick={ClickHandler} className="theme-btn" to="/about">About Us</Link>

@@ -1,7 +1,11 @@
 import React from 'react';
 import {BrowserRouter,Routes,Route,} from "react-router-dom";
 
+<<<<<<< HEAD
 import Homepage from '../HomePage/HomePage'
+=======
+import Homepage from '../HomePage3/HomePage3'
+>>>>>>> master
 import HomePage2 from '../HomePage2/HomePage2';
 import HomePage3 from '../HomePage3/HomePage3';
 import HomePage4 from '../HomePage4/HomePage4';
@@ -44,8 +48,13 @@ const AllRoute = () => {
     <div className="App">
         <BrowserRouter>
           <Routes>
+<<<<<<< HEAD
             <Route path="/" element={<Homepage />} />
             <Route path="home" element={<Homepage />} />
+=======
+            <Route path="/" element={<HomePage3 />} />
+            {/* <Route path="home" element={<Homepage />} /> */}
+>>>>>>> master
             <Route path="home2" element={<HomePage2 />} />
             <Route path="home3" element={<HomePage3 />} />
             <Route path="home4" element={<HomePage4 />} />

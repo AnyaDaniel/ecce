@@ -15,12 +15,20 @@ import PartnerSectionS2 from '../../components/PartnerSection2/PartnerSectionS2'
 import Skill from '../../components/Skill/Skill';
 import Subscribe from '../../components/Subscribe/Subscribe';
 import Logo from '../../images/logo.png'
+<<<<<<< HEAD
+=======
+import Navbar3 from '../../components/Navbar3/Navbar3';
+>>>>>>> master
 
 
 const HomePage3 =() => {
     return(
         <Fragment>
+<<<<<<< HEAD
             <Navbar2 topbarNone={'wpo-header-style-2'} hclass={'wpo-header-style-1'} Logo={Logo}/>
+=======
+            <Navbar3 topbarNone={'wpo-header-style-1'} hclass={'wpo-header-style-1'} Logo={Logo}/>
+>>>>>>> master
             <Hero2/>
             <Features/>
             <ServiceSectionS2/>

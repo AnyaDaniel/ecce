@@ -4,6 +4,7 @@ import timg3 from '../images/team/3.jpg'
 
 
 const Teams = [
+<<<<<<< HEAD
     {
         Id: '1',
         tImg:timg1,
@@ -13,6 +14,17 @@ const Teams = [
     // {
     //     Id: '2',
     //     tImg:timg2,
+=======
+    // {
+    //     Id: '1',
+    //     tImg:timg1,
+    //     name:'Kemi',
+    //     title:'Founder',
+    // },
+    // {
+    //     Id: '2',
+    //     tImg:,
+>>>>>>> master
     //     name:'Robert Johnson',
     //     title:'Admin',
     // },

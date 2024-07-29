@@ -22,7 +22,11 @@ const ServiceSectionS3 = () => {
                             <div className="wpo-service-item">
                                 <div className="wpo-service-text">
                                     <div className="service-icon">
+<<<<<<< HEAD
                                         <i className={`fi ${service.icon}`}></i>
+=======
+                                        {service.icon}
+>>>>>>> master
                                     </div>
                                     <div className="service-content">
                                         <h2>{service.sTitle}</h2>

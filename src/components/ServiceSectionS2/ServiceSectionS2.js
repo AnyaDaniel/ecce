@@ -40,6 +40,24 @@ const settings = {
                 centerMode: false,
             }
         },
+<<<<<<< HEAD
+        // {
+        //     breakpoint: 767,
+        //     settings: {
+        //         slidesToShow: 1,
+        //         slidesToScroll: 1,
+        //         centerMode: false,
+        //     }
+        // },
+        // {
+        //     breakpoint: 480,
+        //     settings: {
+        //         slidesToShow: 1,
+        //         slidesToScroll: 1,
+        //         centerMode: false,
+        //     }
+        // }
+=======
         {
             breakpoint: 767,
             settings: {
@@ -56,6 +74,7 @@ const settings = {
                 centerMode: false,
             }
         }
+>>>>>>> master
     ]
 };
 
@@ -67,6 +86,17 @@ const ServiceSectionS2 = () => {
     return (
         <section className="wpo-service-section-s2 section-padding">
             <div className="container">
+<<<<<<< HEAD
+                <SectionTitle subTitle={'Our Services'} Title={'All Ecce Law Solution'} />
+                <div className="row-grid wpo-service-slider-s2">
+                    <Slider {...settings}>
+                        {Services.map((service, srv) => (
+                            <div className="grid" key={srv}>
+                                <div className="wpo-service-item">
+                                    <div className="wpo-service-text">
+                                        <div className="service-icon">
+                                            <i className={`fi ${service.icon}`}></i>
+=======
                 <SectionTitle subTitle={'Our Services'} Title={'Specialized Legal Solutions'} />
                 <div className="row-grid wpo-service-slider-s2">
                     <Slider {...settings}>
@@ -76,6 +106,7 @@ const ServiceSectionS2 = () => {
                                     <div className="wpo-service-text">
                                         <div className="service-icon">
                                             {service.icon}
+>>>>>>> master
                                         </div>
                                         <h2>{service.sTitle}</h2>
                                         <p>{service.description}</p>

@@ -17,6 +17,8 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+<<<<<<< HEAD
+=======
 i[class^="fa-"]:before, i[class*=" fa-"]:before {
     font-family: fontawesome !important;
     font-style: normal;
@@ -27,6 +29,7 @@ i[class^="fa-"]:before, i[class*=" fa-"]:before {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+>>>>>>> master
 
 
 .flaticon-search-interface-symbol:before {

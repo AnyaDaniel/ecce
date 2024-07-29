@@ -13,23 +13,40 @@ const testimonial = [
     {
         id: '01',
         tImg: ts1,
+<<<<<<< HEAD
+        Des: "Lorem Ipsum is simply dummy text of the printing and typesetting industry has text ever since the 1500s, when an unknown printer took a galley of type and scrambled make survived not only five centuries, but also the leap into electronic typesetting.",
+        Title: 'Cathi Falcon',
+=======
         Des: "We had the pleasure of working with Atty Kemi for our business franchise purchase, and we couldn't be happier with the experience. She was incredibly thorough and approachable, ensuring we understood every step of the process. Her explanations were clear, and she was always accommodating to our needs. What stood out most was her responsiveness; she always replied promptly to our inquiries. We highly recommend Atty Kemi to anyone seeking legal assistance with franchise purchases and Real estate transactions. She truly exceeded our expectations.",
         Title: 'Napoleon Ebonite',
+>>>>>>> master
         Sub: "Founder",
     },
     {
         id: '01',
         tImg: ts2,
+<<<<<<< HEAD
+        Des: "Lorem Ipsum is simply dummy text of the printing and typesetting industry has text ever since the 1500s, when an unknown printer took a galley of type and scrambled make survived not only five centuries, but also the leap into electronic typesetting.",
+        Title: 'Harry Abraham',
+        Sub: "SCG First Company",
+=======
         Des: "You can tell how successful a project will be by the quality of its foundation. This heralds ECCE Law at its infancy. From our initial booking, to meeting the Principal one-on-one where she tutored us meticulously about the various legal documents we would be signing, until the beautiful morning our realtor presented our home key to us as scheduled, ECCE law gave us timely correspondences with clear and detailed instructions. It was over-and-beyond personalized services that helped us complete our mortgage transaction within a really short timeframe. Communication was professional and she made it very easy to review documents on the go/electronically. On top of it, she sealed our working relationship with thoughtful gifts. Highly recommend",
         Title: 'Bisi & Wole Olabanji',
         Sub: "",
+>>>>>>> master
     },
     {
         id: '01',
         tImg: ts3,
+<<<<<<< HEAD
+        Des: "Lorem Ipsum is simply dummy text of the printing and typesetting industry has text ever since the 1500s, when an unknown printer took a galley of type and scrambled make survived not only five centuries, but also the leap into electronic typesetting.",
+        Title: 'Benjir Walton',
+        Sub: "Merketer",
+=======
         Des: "Oh wow! It was such a fantastic experience. Despite the fact  receiving our  mortgage documentation from the lenders late, our lawyer made sure we got the keys to our new home on our possession day without any hitch. The entire process was handled with high professionalism. We recommend their services to everyone. Great job!” ",
         Title: 'Olufisayo & Tosin',
         Sub: "",
+>>>>>>> master
     }
 ]
 

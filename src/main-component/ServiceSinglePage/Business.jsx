@@ -11,7 +11,7 @@ function Business() {
     return (
         <Fragment>
             <Navbar3 hclass={'wpo-header-style-5'} />
-            <PageTitle pageTitle={"Business"} pagesub={'Project'} />
+            <PageTitle pageTitle={"Business"} pagesub={'Business'} />
             <div className="wpo-service-single-area section-padding">
                 <div className="container">
                     <div className="row">
@@ -25,7 +25,7 @@ function Business() {
                                         <h2>{"Business"}</h2>
                                     </div>
                                     <p>Comprehensive business legal services including incorporation, governance, transactional law,
-                                    . and project management tailored to support corporate operations and growth.</p>
+                                        . and project management tailored to support corporate operations and growth.</p>
                                     <p>.</p>
                                     <div className="row mt-4">
                                         <div className="col-md-6 col-sm-6 col-12">
@@ -56,7 +56,7 @@ function Business() {
                                         <li>Non-Profit and Charities:</li>
                                     </ul>
                                 </div> */}
-                               
+
                                 {/* <div className="wpo-service-single-item list-widget">
                                     <div className="wpo-service-single-title">
                                         <h3>Corporate Governance</h3>
@@ -69,13 +69,13 @@ function Business() {
                                     </ul>
                                 </div> */}
 
-                                <Section title="Business Incorporation and Reorganization" content='We provide comprehensive support for business incorporation and reorganization, ensuring that your business is set up for success from the start. Our team assists with entity selection, structuring, and compliance to facilitate smooth and efficient operations.'/>
-                                <Section title="Business Transactional Law" content='Our expertise in business transactional law covers a wide range of commercial transactions, including contract  and agreements, negotiations and intellectual property. We ensure that your business transactions are executed seamlessly and in compliance with relevant regulations.'/>
-                                <Section title="Corporate Governance" content='We offer guidance on best practices in corporate governance, helping businesses establish effective governance structures and policies. Our services include advising on board composition, fiduciary duties, and regulatory compliance to promote transparency and accountability'/>
-                                <Section title="Company Secretarial Services" content='Our company secretarial services ensure that your business remains compliant with statutory and regulatory requirements. We handle corporate filings, maintain statutory registers, and provide support for board meetings and resolutions.'/>
-                                <Section title="Project Management Services" content='We assist with the legal aspects of project management, from planning and execution to completion. Our team provides legal oversight to ensure that your projects are delivered in accordance with contractual obligations.'/>
-                                <Section title="Non-Profit and Charities:" content='We offer legal services for non-profits and charities, including incorporation, governance, and compliance with charitable regulations. Our goal is to help these organizations achieve their missions while maintaining legal and regulatory compliance.'/>
-                               
+                                <Section title="Business Incorporation and Reorganization" content='We provide comprehensive support for business incorporation and reorganization, ensuring that your business is set up for success from the start. Our team assists with entity selection, structuring, and compliance to facilitate smooth and efficient operations.' />
+                                <Section title="Business Transactional Law" content='Our expertise in business transactional law covers a wide range of commercial transactions, including contract  and agreements, negotiations and intellectual property. We ensure that your business transactions are executed seamlessly and in compliance with relevant regulations.' />
+                                <Section title="Corporate Governance" content='We offer guidance on best practices in corporate governance, helping businesses establish effective governance structures and policies. Our services include advising on board composition, fiduciary duties, and regulatory compliance to promote transparency and accountability' />
+                                <Section title="Company Secretarial Services" content='Our company secretarial services ensure that your business remains compliant with statutory and regulatory requirements. We handle corporate filings, maintain statutory registers, and provide support for board meetings and resolutions.' />
+                                <Section title="Project Management Services" content='We assist with the legal aspects of project management, from planning and execution to completion. Our team provides legal oversight to ensure that your projects are delivered in accordance with contractual obligations.' />
+                                <Section title="Non-Profit and Charities:" content='We offer legal services for non-profits and charities, including incorporation, governance, and compliance with charitable regulations. Our goal is to help these organizations achieve their missions while maintaining legal and regulatory compliance.' />
+
                                 <div className="wpo-service-single-item">
                                     <div className="wpo-service-single-title">
                                         <h3>Related Service</h3>
@@ -117,13 +117,13 @@ function Business() {
     )
 }
 
-function Section({title="",content=""}){
-    return  <div className="wpo-service-single-item">
-    <div className="wpo-service-single-title">
-        <h3>{title}</h3>
+function Section({ title = "", content = "" }) {
+    return <div className="wpo-service-single-item">
+        <div className="wpo-service-single-title">
+            <h3>{title}</h3>
+        </div>
+        <p>{content}</p>
     </div>
-    <p>{content}</p>
-</div>
 }
 
 export default Business

@@ -15,7 +15,7 @@ const testimonial = [
         tImg: ts1,
         Des: "We had the pleasure of working with Atty Kemi for our business franchise purchase, and we couldn't be happier with the experience. She was incredibly thorough and approachable, ensuring we understood every step of the process. Her explanations were clear, and she was always accommodating to our needs. What stood out most was her responsiveness; she always replied promptly to our inquiries. We highly recommend Atty Kemi to anyone seeking legal assistance with franchise purchases and Real estate transactions. She truly exceeded our expectations.",
         Title: 'Napoleon Ebonite',
-        Sub: "Founder",
+        Sub: "",
     },
     {
         id: '01',

@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom'
 import HeaderTopbar2 from '../HeaderTopbar2/HeaderTopbar2'
 import MobileMenu from '../MobileMenu/MobileMenu'
 import Logo from '../../images/logo-2.png'
+<<<<<<< HEAD
+=======
 import HeaderTopbar from '../HeaderTopbar/HeaderTopbar'
+>>>>>>> master
 
 
 const Header3 = (props) => {
@@ -18,8 +21,12 @@ const Header3 = (props) => {
 
     return (
         <header id="header" className={`wpo-header-style-7 ${props.topbarNone}`}>
+<<<<<<< HEAD
+            <HeaderTopbar2 />
+=======
             {/* <HeaderTopbar2 /> */}
             <HeaderTopbar />
+>>>>>>> master
             <div className={`wpo-site-header ${props.hclass}`}>
                 <nav className="navigation navbar navbar-expand-lg navbar-light">
                     <div className="container-fluid">
@@ -31,7 +38,11 @@ const Header3 = (props) => {
                             </div>
                             <div className="col-lg-3 col-md-6 col-6">
                                 <div className="navbar-header">
+<<<<<<< HEAD
+                                    <Link onClick={ClickHandler} className="navbar-brand" to="/home"><img src={Logo}
+=======
                                     <Link onClick={ClickHandler} className="navbar-brand" to="/home3"><img src={Logo}
+>>>>>>> master
                                         alt="" /></Link>
                                 </div>
                             </div>

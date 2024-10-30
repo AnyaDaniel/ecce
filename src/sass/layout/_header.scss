@@ -1921,11 +1921,16 @@
 
   .fixed-navbar.active .wpo-header-style-1,
   .fixed-navbar.active .wpo-header-style-5 .wpo-site-header{
+<<<<<<< HEAD
+    background: #1a384c;
+	max-width: 100%;
+=======
     background: white;
 	max-width: 100%;
 	li a{
 		color: #000 !important;
 	}
+>>>>>>> master
   }
 
   .Toastify{
@@ -1946,7 +1951,10 @@
 
   .fixed-navbar.active .wpo-header-style-1 .shop-header{
 	background: #1a384c;
+<<<<<<< HEAD
+=======
 	a.theme-btn{
 		color:white !important
 	}
+>>>>>>> master
   }

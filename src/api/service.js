@@ -11,11 +11,14 @@ import sImgS4 from '../images/service-single/img-4.jpg'
 import sSingleimg1 from '../images/service-single/2.jpg'
 import sSingleimg2 from '../images/service-single/3.jpg'
 
+<<<<<<< HEAD
+=======
 import bizImg from  "../images/service/Services icons SVG/3.png"
 import realEstate from  "../images/service/Services icons SVG/2.png"
 import estate from  "../images/service/Services icons SVG/1.png"
 import ai from "../images/service/Services icons SVG/AI.svg"
 
+>>>>>>> master
 
 
 
@@ -28,8 +31,12 @@ const Services = [
         description:'Comprehensive business legal services including incorporation, governance, transactional law, and project management tailored to support corporate operations and growth',
         des2:'',
         des3:'',
+<<<<<<< HEAD
+        icon:'flaticon-advisor',
+=======
         des4:"",
         icon:<img src={bizImg} alt="business"/>,
+>>>>>>> master
         ssImg1:sSingleimg1,
         ssImg2:sSingleimg2,
     },
@@ -41,15 +48,30 @@ const Services = [
         description:'Expert legal assistance in commercial and residential real estate transactions, leasing, and tenancy matters, ensuring smooth and compliant property dealings.',
         des2:'',
         des3:'',
+<<<<<<< HEAD
+        icon:'flaticon-team',
+        ssImg1:sSingleimg1,
+        ssImg2:sSingleimg2,
+=======
         // icon:'flaticon-team',
         ssImg1:sSingleimg1,
         ssImg2:sSingleimg2,
         icon:<img src={realEstate} alt="real estate"/>
+>>>>>>> master
     },
     {
         Id: '3',
         sImg:simg3,
         sImgS:sImgS3,
+<<<<<<< HEAD
+        sTitle: 'Estates',
+        description:'Specialized estate planning and administration services, including wills, powers of attorney, and probate, to manage and transfer assets efficiently and legally.',
+        des2:'',
+        des3:'',
+        icon:'flaticon-taxes',
+        ssImg1:sSingleimg1,
+        ssImg2:sSingleimg2,
+=======
         sTitle: 'Wills & Estates',
         description:'Specialized estate planning and administration services, including wills, powers of attorney, and probate, to manage and transfer assets efficiently and legally.',
         des2:'',
@@ -58,6 +80,7 @@ const Services = [
         ssImg1:sSingleimg1,
         ssImg2:sSingleimg2,
         icon:<img src={estate} alt="estate"/>
+>>>>>>> master
     },
     {
         Id: '4',
@@ -67,11 +90,17 @@ const Services = [
         description:'Legal guidance on AI implementation and compliance, addressing ethical considerations, regulatory requirements, and governance to ensure responsible AI usage.',
         des2:'',
         des3:'',
+<<<<<<< HEAD
+        icon:'flaticon-tax',
+        ssImg1:sSingleimg1,
+        ssImg2:sSingleimg2,
+=======
         // icon:'flaticon-tax',
         ssImg1:sSingleimg1,
         ssImg2:sSingleimg2,
         icon:<img src={ai} alt="estate"/>
 
+>>>>>>> master
     }
 ]    
 

@@ -16,7 +16,11 @@ const TeamSection = (props) => {
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-section-title">
+<<<<<<< HEAD
+                            <span>Meet our dedicated experts</span>
+=======
                             {/* <h2>Meet our dedicated experts</h2> */}
+>>>>>>> master
                             {/* <h2>We Have Skilled People</h2> */}
                         </div>
                     </div>
@@ -24,7 +28,11 @@ const TeamSection = (props) => {
                 <div className="wpo-team-wrap">
                     <div className="row">
                         {Team.map((team, aitem) => (
+<<<<<<< HEAD
+                            <div className="col col-lg-6 col-md-6 col-12" key={aitem}>
+=======
                             <div className="col col-lg-4 col-md-6 col-12" key={aitem}>
+>>>>>>> master
                                 <div className="wpo-team-item">
                                     <div className="wpo-team-img">
                                         <img src={team.tImg} alt=""/>

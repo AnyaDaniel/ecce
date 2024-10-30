@@ -34,7 +34,10 @@ const Contactpage = () => {
                                         <div className="office-info-text">
                                             <h2>Email Us</h2>
                                             <p>admin@eccelaw.com</p>
+<<<<<<< HEAD
+=======
                                             <br></br>
+>>>>>>> master
                                             {/* <p>helloyou@gmail.com</p> */}
                                         </div>
                                     </div>
@@ -49,7 +52,10 @@ const Contactpage = () => {
                                         <div className="office-info-text">
                                             <h2>Call Now</h2>
                                             <p>+1 (306)-205-4081</p>
+<<<<<<< HEAD
+=======
                                             <br></br>
+>>>>>>> master
                                             {/* <p>+1 800 123 654 987</p> */}
                                         </div>
                                     </div>
@@ -57,8 +63,14 @@ const Contactpage = () => {
                             </div>
                         </div>
                         <div className="wpo-contact-title">
+<<<<<<< HEAD
+                            <h2>Have Any Question?</h2>
+                            <p>It is a long established fact that a reader will be distracted
+                                content of a page when looking.</p>
+=======
                             <h2>Reach Out To Us</h2>
                             <p>We are here for you. Tell us how we may help you.</p>
+>>>>>>> master
                         </div>
                         <div className="wpo-contact-form-area">
                             <ContactForm/>

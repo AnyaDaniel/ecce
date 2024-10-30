@@ -6,14 +6,22 @@ import shape2 from '../../images/page-title-shape-2.png'
 
 const PageTitle = (props) => {
     return (
+<<<<<<< HEAD
+        <section className="page-title">
+=======
         <section className="page-title" style={{background:`url("${props.img}")`}}>
+>>>>>>> master
             <div className="page-inner-wrap">
                 <div className="container">
                     <div className="row">
                         <div className="col col-xs-12">
                             <h2>{props.pageTitle}</h2>
                             <ol className="breadcrumb">
+<<<<<<< HEAD
+                                <li><Link to="/home">Home</Link></li>
+=======
                                 <li><Link to="/home3">Home</Link></li>
+>>>>>>> master
                                 <li><span>{props.pagesub}</span></li>
                             </ol>
                         </div>
@@ -24,7 +32,11 @@ const PageTitle = (props) => {
                 </Fade>
                 <Fade top>
                     <div className="page-title-shape-2">
+<<<<<<< HEAD
+                        <img src={shape1} alt="" />
+=======
                     <img src={shape1} alt="" />
+>>>>>>> master
                     </div>
                 </Fade>
                 <Fade bottom>

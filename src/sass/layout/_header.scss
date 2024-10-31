@@ -151,7 +151,7 @@
 	}
 
 	.topbar {
-		padding: 10px 0;
+		padding: 0px !important;
 	}
 
 }
@@ -1028,7 +1028,7 @@
 		}
 
 		@include media-query(991px) {
-			padding: 20px 0;
+			padding: 0px;
 		}
 	}
 

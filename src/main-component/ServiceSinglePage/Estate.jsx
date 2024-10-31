@@ -1,16 +1,19 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import Navbar3 from '../../components/Navbar3/Navbar3'
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
-import { useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Services from '../../api/service';
-import ServiceSidebar from './sidebar'
 import Contact from './contact';
 import Footer2 from '../../components/footer2/Footer2';
 function Estate() {
+    useEffect(() => {
+        document.getElementById("top").scrollIntoView({ behavior: 'smooth' });
+    }, [])
     return (
         <Fragment>
             <Navbar3 hclass={'wpo-header-style-5'} />
+            <div id="top"></div>
             <PageTitle pageTitle={"Wills & Estates"} pagesub={'Wills & Estates'} />
             <div className="wpo-service-single-area section-padding">
                 <div className="container">
@@ -55,7 +58,7 @@ function Estate() {
                                         <li>Non-Profit and Charities:</li>
                                     </ul>
                                 </div> */}
-                               
+
                                 {/* <div className="wpo-service-single-item list-widget">
                                     <div className="wpo-service-single-title">
                                         <h3>Corporate Governance</h3>
@@ -68,11 +71,11 @@ function Estate() {
                                     </ul>
                                 </div> */}
 
-                                <Section title="Wills" content='We help clients draft and update wills to ensure that their final wishes are clearly expressed and legally binding. Our services include estate planning and ensure smooth asset distribution.'/>
-                                <Section title="Power of Attorney" content='Our power of attorney services ensure that your financial and legal affairs are managed according to your wishes if you become unable to do so yourself. We draft and execute power of attorney documents tailored to your specific needs.'/>
-                                <Section title="Health Care Directives" content='We assist clients in preparing health care directives that outline their medical treatment preferences. These directives provide guidance to healthcare providers and family members in the event of incapacitation.'/>
-                                <Section title="Estate Administration and Probate" content='We offer comprehensive estate administration services, guiding executors and administrators through the probate process. Our team handles the legal complexities of validating wills and administering estates, ensuring that estates are settled efficiently and that the probate process is completed smoothly and in compliance with relevant regulations. '/>
-                               
+                                <Section title="Wills" content='We help clients draft and update wills to ensure that their final wishes are clearly expressed and legally binding. Our services include estate planning and ensure smooth asset distribution.' />
+                                <Section title="Power of Attorney" content='Our power of attorney services ensure that your financial and legal affairs are managed according to your wishes if you become unable to do so yourself. We draft and execute power of attorney documents tailored to your specific needs.' />
+                                <Section title="Health Care Directives" content='We assist clients in preparing health care directives that outline their medical treatment preferences. These directives provide guidance to healthcare providers and family members in the event of incapacitation.' />
+                                <Section title="Estate Administration and Probate" content='We offer comprehensive estate administration services, guiding executors and administrators through the probate process. Our team handles the legal complexities of validating wills and administering estates, ensuring that estates are settled efficiently and that the probate process is completed smoothly and in compliance with relevant regulations. ' />
+
                                 <div className="wpo-service-single-item">
                                     <div className="wpo-service-single-title">
                                         <h3>Related Service</h3>
@@ -80,13 +83,13 @@ function Estate() {
                                     <div className="wpo-service-area">
                                         <div className="row align-items-center">
                                             {Services.slice(0, 3).map((service, srv) => (
-                                                <div className="col-lg-4 col-md-6 col-12" key={srv}>
+                                                <Link className="col-lg-4 col-md-6 col-12" key={srv} to={"/service-single/" + (Number(srv) + 1)}>
                                                     <div className="wpo-service-item">
                                                         <i className={`fi ${service.icon}`} ></i>
                                                         <h2>{service.sTitle}</h2>
-                                                        {/* <p>Lacus, etiam sed est eu tempus need Temer diam congue.</p> */}
+                                                        {/* <p>This shows for al</p> */}
                                                     </div>
-                                                </div>
+                                                </Link>
                                             ))}
                                         </div>
                                     </div>
@@ -114,13 +117,13 @@ function Estate() {
     )
 }
 
-function Section({title="",content=""}){
-    return  <div className="wpo-service-single-item">
-    <div className="wpo-service-single-title">
-        <h3>{title}</h3>
+function Section({ title = "", content = "" }) {
+    return <div className="wpo-service-single-item">
+        <div className="wpo-service-single-title">
+            <h3>{title}</h3>
+        </div>
+        <p>{content}</p>
     </div>
-    <p>{content}</p>
-</div>
 }
 
 export default Estate

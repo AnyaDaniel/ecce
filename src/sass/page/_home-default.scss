@@ -110,7 +110,7 @@
                 }
             }
 
-            .wpo-ab-img-2{
+            .wpo-ab-img-2 {
                 display: none;
             }
 
@@ -445,8 +445,8 @@
             .slick-slide {
                 padding: 0 15px;
 
-                @media(max-width:767px){
-                  padding: 0;
+                @media(max-width:767px) {
+                    padding: 0;
                 }
 
                 &.slick-center {
@@ -766,7 +766,7 @@
     }
 
     .shape-1,
-    .shape-2{
+    .shape-2 {
         display: none;
     }
 
@@ -1026,59 +1026,63 @@
             transition: all 0.3s;
             z-index: 1;
             border-color: $theme-primary-color;
-    
-            @media(max-width:767px){
-                display: none!important;
-             }
-    
+
+            @media(max-width:767px) {
+                display: none !important;
+            }
+
             &.slick-next {
                 position: absolute;
-                bottom:-120px;
+                bottom: -120px;
                 left: 52%;
 
-                &:before{
+                &:before {
                     content: "\f103";
                     font-family: "Flaticon";
                     color: $theme-primary-color;
                 }
-    
-                &:hover{
+
+                &:hover {
                     background: $theme-primary-color;
-                    
-                    &:before{
+
+                    &:before {
                         color: $white;
                     }
                 }
-    
-    
+
+
             }
+
             &.slick-prev {
                 position: absolute;
-                bottom:-120px;
+                bottom: -120px;
                 left: 48%;
-    
-                &:before{
+
+                &:before {
                     content: "\f104";
                     font-family: "Flaticon";
                     color: $theme-primary-color;
                 }
-    
-                @media(max-width:1700px){
+
+                @media(max-width:1700px) {
                     left: 46%;
                 }
-                @media(max-width:1200px){
+
+                @media(max-width:1200px) {
                     left: 44%;
                 }
-    
-                &:hover{
+
+                &:hover {
                     background: $theme-primary-color;
-                    &:before{
+
+                    &:before {
                         color: $white;
                     }
                 }
             }
-    
+
         }
+
         .owl-dots {
             bottom: -10px;
             position: absolute;
@@ -1184,11 +1188,11 @@
                     }
 
                     h3 {
-                        font-size: 32px;
+                        font-size: 25px;
                         margin-top: 5px;
 
                         @media(max-width:575px) {
-                            font-size: 25px;
+                            font-size: 19px;
                         }
 
                     }
@@ -1216,7 +1220,7 @@
             }
         }
 
-        .testimonial-right-side{
+        .testimonial-right-side {
             position: relative;
 
             .video-holder {

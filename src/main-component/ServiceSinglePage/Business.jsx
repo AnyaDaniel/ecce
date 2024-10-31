@@ -1,16 +1,19 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import Navbar3 from '../../components/Navbar3/Navbar3'
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
-import { useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Services from '../../api/service';
-import ServiceSidebar from './sidebar'
 import Contact from './contact';
 import Footer2 from '../../components/footer2/Footer2';
 function Business() {
+    useEffect(() => {
+        document.getElementById("top").scrollIntoView({ behavior: 'smooth' });
+    }, [])
     return (
         <Fragment>
             <Navbar3 hclass={'wpo-header-style-5'} />
+            <div id="top"></div>
             <PageTitle pageTitle={"Business"} pagesub={'Business'} />
             <div className="wpo-service-single-area section-padding">
                 <div className="container">
@@ -83,13 +86,13 @@ function Business() {
                                     <div className="wpo-service-area">
                                         <div className="row align-items-center">
                                             {Services.slice(0, 3).map((service, srv) => (
-                                                <div className="col-lg-4 col-md-6 col-12" key={srv}>
+                                                <Link className="col-lg-4 col-md-6 col-12" key={srv} to={"/service-single/" + (Number(srv) + 1)}>
                                                     <div className="wpo-service-item">
                                                         <i className={`fi ${service.icon}`} ></i>
                                                         <h2>{service.sTitle}</h2>
                                                         {/* <p>This shows for al</p> */}
                                                     </div>
-                                                </div>
+                                                </Link>
                                             ))}
                                         </div>
                                     </div>

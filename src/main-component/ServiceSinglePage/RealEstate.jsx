@@ -1,15 +1,19 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import Navbar3 from '../../components/Navbar3/Navbar3'
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
-import { useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Services from '../../api/service';
 import ServiceSidebar from './sidebar'
 import Contact from './contact';
 import Footer2 from '../../components/footer2/Footer2';
 function RealEstate() {
+    useEffect(() => {
+        document.getElementById("top").scrollIntoView({ behavior: 'smooth' });
+    }, [])
     return (
         <Fragment>
+            <div id="top"></div>
             <Navbar3 hclass={'wpo-header-style-5'} />
             <PageTitle pageTitle={"Real Estate"} pagesub={'Real Estate'} />
             <div className="wpo-service-single-area section-padding">
@@ -54,7 +58,7 @@ function RealEstate() {
                                         <li>Non-Profit and Charities:</li>
                                     </ul>
                                 </div> */}
-                               
+
                                 {/* <div className="wpo-service-single-item list-widget">
                                     <div className="wpo-service-single-title">
                                         <h3>Corporate Governance</h3>
@@ -67,10 +71,10 @@ function RealEstate() {
                                     </ul>
                                 </div> */}
 
-                                <Section title="Commercial Real Estate: " content='Our commercial real estate services cover all aspects of commercial property transactions, including acquisitions, dispositions, leasing, and financing. We provide expert legal advice to ensure your commercial real estate deals are successful.'/>
-                                <Section title="Residential Real Estate:" content='We assist clients with residential real estate transactions, from purchasing and selling homes to financing and leasing. Our team ensures that your residential real estate matters are handled with utmost importance for swift closure.'/>
-                                <Section title=" Residential Tenancies: " content='We provide legal support for residential tenancies, including lease agreements, tenant disputes, compliance with residential tenancy laws and legal representation. Our goal is to protect your rights and interests as a landlord or tenant.'/>
-                            
+                                <Section title="Commercial Real Estate: " content='Our commercial real estate services cover all aspects of commercial property transactions, including acquisitions, dispositions, leasing, and financing. We provide expert legal advice to ensure your commercial real estate deals are successful.' />
+                                <Section title="Residential Real Estate:" content='We assist clients with residential real estate transactions, from purchasing and selling homes to financing and leasing. Our team ensures that your residential real estate matters are handled with utmost importance for swift closure.' />
+                                <Section title=" Residential Tenancies: " content='We provide legal support for residential tenancies, including lease agreements, tenant disputes, compliance with residential tenancy laws and legal representation. Our goal is to protect your rights and interests as a landlord or tenant.' />
+
                                 <div className="wpo-service-single-item">
                                     <div className="wpo-service-single-title">
                                         <h3>Related Service</h3>
@@ -78,13 +82,13 @@ function RealEstate() {
                                     <div className="wpo-service-area">
                                         <div className="row align-items-center">
                                             {Services.slice(0, 3).map((service, srv) => (
-                                                <div className="col-lg-4 col-md-6 col-12" key={srv}>
+                                                <Link className="col-lg-4 col-md-6 col-12" key={srv} to={"/service-single/" + (Number(srv) + 1)}>
                                                     <div className="wpo-service-item">
                                                         <i className={`fi ${service.icon}`} ></i>
                                                         <h2>{service.sTitle}</h2>
-                                                        {/* <p>Lacus, etiam sed est eu tempus need Temer diam congue.</p> */}
+                                                        {/* <p>This shows for al</p> */}
                                                     </div>
-                                                </div>
+                                                </Link>
                                             ))}
                                         </div>
                                     </div>
@@ -112,13 +116,13 @@ function RealEstate() {
     )
 }
 
-function Section({title="",content=""}){
-    return  <div className="wpo-service-single-item">
-    <div className="wpo-service-single-title">
-        <h3>{title}</h3>
+function Section({ title = "", content = "" }) {
+    return <div className="wpo-service-single-item">
+        <div className="wpo-service-single-title">
+            <h3>{title}</h3>
+        </div>
+        <p>{content}</p>
     </div>
-    <p>{content}</p>
-</div>
 }
 
 export default RealEstate

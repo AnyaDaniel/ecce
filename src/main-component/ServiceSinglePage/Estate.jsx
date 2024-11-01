@@ -25,9 +25,9 @@ function Estate() {
                                         <img src={""} alt="" />
                                     </div>
                                     <div className="wpo-service-single-title">
-                                        <h3>{"Wills & Estate"}</h3>
+                                        <h3>{"Wills & Estate Legal Services"}</h3>
                                     </div>
-                                    <p> Expert legal assistance in commercial and residential real estate transactions, leasing, and tenancy matters, ensuring smooth and compliant property dealings..</p>
+                                    <p> We offer a full spectrum of estate planning services, helping individuals and families prepare for the future with confidence and clarity. Whether it’s drafting wills, navigating probate, or preparing health care directives, we ensure that your estate is managed according to your wishes and in compliance with legal standards.</p>
                                     <p>.</p>
                                     <div className="row mt-4">
                                         <div className="col-md-6 col-sm-6 col-12">
@@ -71,10 +71,10 @@ function Estate() {
                                     </ul>
                                 </div> */}
 
-                                <Section title="Wills" content='We help clients draft and update wills to ensure that their final wishes are clearly expressed and legally binding. Our services include estate planning and ensure smooth asset distribution.' />
-                                <Section title="Power of Attorney" content='Our power of attorney services ensure that your financial and legal affairs are managed according to your wishes if you become unable to do so yourself. We draft and execute power of attorney documents tailored to your specific needs.' />
-                                <Section title="Health Care Directives" content='We assist clients in preparing health care directives that outline their medical treatment preferences. These directives provide guidance to healthcare providers and family members in the event of incapacitation.' />
-                                <Section title="Estate Administration and Probate" content='We offer comprehensive estate administration services, guiding executors and administrators through the probate process. Our team handles the legal complexities of validating wills and administering estates, ensuring that estates are settled efficiently and that the probate process is completed smoothly and in compliance with relevant regulations. ' />
+                                <Section title="Wills" content='A properly drafted will is the cornerstone of any estate plan. We work closely with our clients to understand their specific needs, ensuring that their assets are distributed as intended. Our wills are designed to minimize legal challenges and ensure a smooth transition of assets to beneficiaries. We also offer ongoing support for updating wills as circumstances evolve.' />
+                                <Section title="Power of Attorney" content='A power of attorney is an essential document that ensures your financial and legal affairs are managed by a trusted individual if you are unable to do so yourself. We draft tailored power of attorney documents, providing peace of mind that your affairs will be handled according to your preferences in the event of incapacity.' />
+                                <Section title="Health Care Directives" content='Health care directives are legal instructions for your medical treatment should you become incapacitated. We help clients establish clear directives, ensuring that their treatment preferences are respected and followed by medical professionals and family members. Our health care directive services provide peace of mind that your healthcare decisions will reflect your values and desires.' />
+                                <Section title="Estate Administration and Probate" content='Administering an estate can be a complex process that requires legal expertise. We guide executors and administrators through the probate process, ensuring that all assets are properly managed and distributed in accordance with the deceased’s will. Our team handles the legal complexities of probate, from validating wills to settling disputes, ensuring that the estate is administered efficiently and in compliance with the law.' />
 
                                 <div className="wpo-service-single-item">
                                     <div className="wpo-service-single-title">

@@ -20,7 +20,7 @@ const Contactpage = () => {
                                         </div>
                                         <div className="office-info-text">
                                             <h2>Address</h2>
-                                            <p>#400 - 111 2nd Avenue South, Saskatoon, SK S7K 1K6</p>
+                                            <p>3020A Arlington Ave Saskatoon, SK S7J 2J9</p>
                                         </div>
                                     </div>
                                 </div> 

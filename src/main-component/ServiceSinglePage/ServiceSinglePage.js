@@ -10,6 +10,7 @@ import Footer2 from '../../components/footer2/Footer2';
 import Business from './Business';
 import RealEstate from './RealEstate';
 import Estate from './Estate';
+import AiGovernace from './AiGovernace';
 
 const ServiceSinglePage = (props) => {
     const { id } = useParams()
@@ -20,7 +21,7 @@ const ServiceSinglePage = (props) => {
     //     window.scrollTo(10, 0);
     // }
 
-    const pages = [<></>, <Business />, <RealEstate />,<Estate />]
+    const pages = [<></>, <Business />, <RealEstate />,<Estate />,<AiGovernace/>]
 
     return pages[Number(id)]
 };

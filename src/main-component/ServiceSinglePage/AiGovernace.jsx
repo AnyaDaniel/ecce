@@ -4,18 +4,17 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import { Link } from 'react-router-dom'
 import Services from '../../api/service';
-import ServiceSidebar from './sidebar'
 import Contact from './contact';
 import Footer2 from '../../components/footer2/Footer2';
-function RealEstate() {
+function AiGovernace() {
     useEffect(() => {
         document.getElementById("top").scrollIntoView({ behavior: 'smooth' });
     }, [])
     return (
         <Fragment>
-            <div id="top"></div>
             <Navbar3 hclass={'wpo-header-style-5'} />
-            <PageTitle pageTitle={"Real Estate"} pagesub={'Real Estate'} />
+            <div id="top"></div>
+            <PageTitle pageTitle={"AI Governance"} pagesub={'AI Governance'} />
             <div className="wpo-service-single-area section-padding">
                 <div className="container">
                     <div className="row">
@@ -26,9 +25,10 @@ function RealEstate() {
                                         <img src={""} alt="" />
                                     </div>
                                     <div className="wpo-service-single-title">
-                                        <h3>{"Real Estate Legal Services"}</h3>
+                                        <h3>{"AI Governance"}</h3>
                                     </div>
-                                    <p> We provide strategic legal counsel in real estate matters, assisting clients with both commercial and residential transactions. Whether you're a developer, property manager, landlord, or tenant, we guide you through the legal complexities to ensure smooth and successful property dealings.</p>
+                                    <p> Our AI governance services help businesses navigate the legal complexities surrounding the implementation and use of artificial intelligence. We provide guidance on compliance with data privacy regulations, intellectual property rights, and ethical considerations. As AI becomes a larger part of business operations, we ensure that your AI systems are legally sound, compliant, and aligned with ethical standards. From drafting AI policies to managing risks, we help businesses integrate AI responsibly and effectively.</p>
+                                    <p>.</p>
                                     <div className="row mt-4">
                                         <div className="col-md-6 col-sm-6 col-12">
                                             <div className="wpo-p-details-img">
@@ -71,9 +71,10 @@ function RealEstate() {
                                     </ul>
                                 </div> */}
 
-                                <Section title="Commercial Real Estate: " content='Commercial real estate transactions often involve significant financial and legal risks. Our legal team provides detailed due diligence, helping you navigate complex contracts, financing, leasing arrangements, acquisitions, and dispositions. We assist with negotiating terms, resolving disputes, and ensuring compliance with zoning laws, environmental regulations, and other legal requirements. Our deep understanding of commercial real estate law ensures that your transactions are profitable, legally sound, and timely executed.' />
-                                <Section title="Residential Real Estate:" content='Our residential real estate services provide expert legal advice and representation for buyers, sellers, and landlords. Whether you are purchasing a home, selling property, or navigating a residential lease, we ensure that your transactions are secure, compliant, and in your best interest. We handle all aspects of the process, from offer negotiations to closing documentation, providing peace of mind at every stage. Our team ensures that title searches, property inspections, and financing arrangements are thoroughly reviewed to protect your investment.' />
-                                <Section title=" Residential Tenancies: " content='For landlords and tenants alike, we provide dedicated legal support in navigating tenancy laws. Our services include drafting and reviewing lease agreements, resolving landlord-tenant disputes, and representing clients in eviction proceedings. We ensure that all parties are compliant with applicable tenancy laws, and we strive to resolve disputes quickly and effectively to minimize disruption and legal risk.' />
+                                {/* <Section title="Wills" content='A properly drafted will is the cornerstone of any estate plan. We work closely with our clients to understand their specific needs, ensuring that their assets are distributed as intended. Our wills are designed to minimize legal challenges and ensure a smooth transition of assets to beneficiaries. We also offer ongoing support for updating wills as circumstances evolve.' />
+                                <Section title="Power of Attorney" content='A power of attorney is an essential document that ensures your financial and legal affairs are managed by a trusted individual if you are unable to do so yourself. We draft tailored power of attorney documents, providing peace of mind that your affairs will be handled according to your preferences in the event of incapacity.' />
+                                <Section title="Health Care Directives" content='Health care directives are legal instructions for your medical treatment should you become incapacitated. We help clients establish clear directives, ensuring that their treatment preferences are respected and followed by medical professionals and family members. Our health care directive services provide peace of mind that your healthcare decisions will reflect your values and desires.' />
+                                <Section title="Estate Administration and Probate" content='Administering an estate can be a complex process that requires legal expertise. We guide executors and administrators through the probate process, ensuring that all assets are properly managed and distributed in accordance with the deceased’s will. Our team handles the legal complexities of probate, from validating wills to settling disputes, ensuring that the estate is administered efficiently and in compliance with the law.' /> */}
 
                                 <div className="wpo-service-single-item">
                                     <div className="wpo-service-single-title">
@@ -97,7 +98,7 @@ function RealEstate() {
                                     <div className="wpo-service-contact-area">
                                         <div className="wpo-contact-title">
                                             <h2>Let's discuss</h2>
-                                            <p>Get in touch with us</p>
+                                            <p>Get in touch with us </p>
                                         </div>
                                         <div className="wpo-contact-form-area">
                                             <Contact />
@@ -125,4 +126,4 @@ function Section({ title = "", content = "" }) {
     </div>
 }
 
-export default RealEstate
+export default AiGovernace

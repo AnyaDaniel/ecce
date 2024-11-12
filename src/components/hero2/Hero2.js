@@ -6,6 +6,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 import hero1 from '../../images/banner22.png'
 import hero2 from '../../images/banner23.png'
+import hero1m from '../../images/4.svg'
+import hero2m from '../../images/7.svg'
+
+const isMobile = window.innerWidth < 768;
 
 
 const settings = {
@@ -26,13 +30,13 @@ const Hero2 = () => {
                 <div className="hero-wrapper">
                     <Slider {...settings}>
                         <div className="hero-slide">
-                            <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero1})` }}>
+                            <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${isMobile ? hero1m : hero1})` }}>
                                 <div className="container-fluid">
                                     <div className="slide-content">
                                         {/* <div className="slide-title-sub">
                                             <h5>Your goals, our commitment  </h5>
                                         </div> */}
-                                         <div className="slide-title">
+                                        <div className="slide-title">
                                             <h2>Your goals, Our Commitment  </h2>
                                         </div>
                                         <div className="slide-text">
@@ -47,13 +51,13 @@ const Hero2 = () => {
                         </div>
 
                         <div className="hero-slide">
-                            <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero2})` }}>
+                            <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${isMobile ? hero2m : hero2})` }}>
                                 <div className="container-fluid">
                                     <div className="slide-content">
                                         {/* <div className="slide-title-sub">
                                             <h5>Trusted Business Partner.</h5>
                                         </div> */}
-                                         <div className="slide-title">
+                                        <div className="slide-title">
                                             <h2>Your Success, Simplified </h2>
                                         </div>
                                         <div className="slide-text">

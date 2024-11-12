@@ -11,7 +11,7 @@ const HeaderTopbar = () => {
                         <div className="contact-intro">
                             <ul>
                                 <li><a className='text-white' href="tel:3062054081"><i className="fi flaticon-phone-call-1"></i>(306)-205-4081</a></li>
-                                <li><a className='text-white' href="mailto:admin@eccelaw.com"><i className="fi flaticon-email-1"></i>admin@eccelaw.com</a></li>
+                                <li><a className='text-white' href="mailto:contactus@eccelaw.com "><i className="fi flaticon-email-1"></i>contactus@eccelaw.com </a></li>
                                 <li><a className='text-white' href="https://maps.google.com/?q=Saskatoon+SK+Canada" target="_blank" rel="noopener noreferrer"><i className="fi flaticon-location"></i>Saskatoon SK Canada</a></li>
                             </ul>
                         </div>

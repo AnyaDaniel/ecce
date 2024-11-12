@@ -34,13 +34,14 @@ const ContactForm = () => {
                 phone: '',
                 message: ''
             })
+            e.target.submit();
         } else {
             validator.showMessages();
         }
     };
 
     return (
-        <form onSubmit={(e) => submitHandler(e)} className="contact-validation-active" >
+        <form onSubmit={(e) => submitHandler(e)} className="contact-validation-active" action='http://backend.eccelaw.com/mail.php' method='POST'>
             <div className="row">
                 <div className="col col-lg-6 col-12">
                     <div className="form-field">

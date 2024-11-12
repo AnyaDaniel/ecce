@@ -4,7 +4,7 @@ import ContactForm from '../ContactFrom/ContactForm'
 
 const Contactpage = () => {
 
-    return(
+    return (
         <section className="wpo-contact-pg-section section-padding">
             <div className="container">
                 <div className="row">
@@ -23,7 +23,7 @@ const Contactpage = () => {
                                             <p>3020A Arlington Ave Saskatoon, SK S7J 2J9</p>
                                         </div>
                                     </div>
-                                </div> 
+                                </div>
                                 <div className="col col-xl-4 col-lg-6 col-md-6 col-12">
                                     <div className="office-info-item">
                                         <div className="office-info-icon">
@@ -33,12 +33,12 @@ const Contactpage = () => {
                                         </div>
                                         <div className="office-info-text">
                                             <h2>Email Us</h2>
-                                            <p>admin@eccelaw.com</p>
+                                            <p>contactus@eccelaw.com</p>
                                             <br></br>
                                             {/* <p>helloyou@gmail.com</p> */}
                                         </div>
                                     </div>
-                                </div> 
+                                </div>
                                 <div className="col col-xl-4 col-lg-6 col-md-6 col-12">
                                     <div className="office-info-item">
                                         <div className="office-info-icon">
@@ -53,7 +53,7 @@ const Contactpage = () => {
                                             {/* <p>+1 800 123 654 987</p> */}
                                         </div>
                                     </div>
-                                </div> 
+                                </div>
                             </div>
                         </div>
                         <div className="wpo-contact-title">
@@ -61,19 +61,19 @@ const Contactpage = () => {
                             <p>We are here for you. Tell us how we may help you.</p>
                         </div>
                         <div className="wpo-contact-form-area">
-                            <ContactForm/>
+                            <ContactForm />
                         </div>
-                    </div>                
+                    </div>
                 </div>
-            </div> 
+            </div>
             <section className="wpo-contact-map-section">
                 <div className="wpo-contact-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2449.315351968981!2d-106.66694352344214!3d52.12858487196117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5304f6d7116aaaab%3A0xb4144d19264fa27!2s111%202%20Ave%20S%20Unit%20400%2C%20Saskatoon%2C%20SK%20S7K%201K6%2C%20Canada!5e0!3m2!1sen!2sng!4v1721768505170!5m2!1sen!2sng"></iframe>               
-                 </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2449.315351968981!2d-106.66694352344214!3d52.12858487196117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5304f6d7116aaaab%3A0xb4144d19264fa27!2s111%202%20Ave%20S%20Unit%20400%2C%20Saskatoon%2C%20SK%20S7K%201K6%2C%20Canada!5e0!3m2!1sen!2sng!4v1721768505170!5m2!1sen!2sng"></iframe>
+                </div>
             </section>
         </section>
-     )
-        
+    )
+
 }
 
 export default Contactpage;

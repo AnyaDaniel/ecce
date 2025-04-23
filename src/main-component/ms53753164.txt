@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "eccelaw.com",
+  "Id": "58093bfb-cd64-44e5-8fdc-6664e84ef608"
+}
